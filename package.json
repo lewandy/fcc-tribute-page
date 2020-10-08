@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lewandy/fcc-tribute-page/issues"
   },
-  "homepage": "https://github.com/lewandy/fcc-tribute-page#readme"
+  "homepage": "https://github.com/lewandy/fcc-tribute-page#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
 }
