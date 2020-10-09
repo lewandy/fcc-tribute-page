@@ -1,0 +1,37 @@
+:root {
+  --font-color: whitesmoke;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #e0dcd8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+  flex-direction: row;
+  font-size: x-large;
+  color: white;
+  background: #7fb285;
+  height: 5rem;
+  box-shadow: 0px 3px 5px whitesmoke;
+}
+
+header .__header_links a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: var(--font-color);
+  font-size: x-large;
+  margin-right: 1.2rem;
+}
+
+header .__header_right {
+  color: var(--font-color);
+  font-weight: bold;
+}
